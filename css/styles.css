@@ -15,6 +15,9 @@ ul {
     align-items: center;
     gap: 40px;
 }
+.header-list .link {
+    padding: 24px 0;
+}
 img {
     display: block;
 }
@@ -38,13 +41,14 @@ header {
 .address-list {
     display: flex;
     margin-right: 0;
-    gap: 40px
+    gap: 40px;
 }
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .header .logo {
     font-family: "Raleway",sans-serif;
     font-style: normal;
@@ -94,6 +98,7 @@ address {
 
 .section-title {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .section-title .title {
     font-size: 56px;
@@ -101,6 +106,8 @@ address {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    width: 496px;
+    margin: 0 auto 48px auto;
 }
 .section-title .order-service {
     background-color: #4D5AE5;
@@ -111,10 +118,14 @@ address {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    padding: 16px 32px;
+    display: block;
+    border: none;
+    margin: 0 auto;
 }
 .section-title .order-service:hover,
 .section-title .order-service:focus {
-    color: #404BBF;
+    color: #FFFFFF;
     background-color: #404BBF;
 }
 .list .caption {
@@ -137,6 +148,11 @@ address {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+.section-two .list {
+    display: flex;
+    gap: 24px;
+    padding: 120px 156px 0 156px;
 }
 .section-three .title {
     font-size: 36px;

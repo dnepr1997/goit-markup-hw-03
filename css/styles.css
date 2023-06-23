@@ -140,6 +140,11 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color1);
+    padding-top: 8px;
+}
+.section-two .text {
+    width: 264px;
+    height: auto;
 }
 .section-two .title {
     font-size: 36px;
@@ -152,7 +157,7 @@ address {
 .section-two .list {
     display: flex;
     gap: 24px;
-    padding: 120px 156px 0 156px;
+    padding: 120px 156px 120px 156px;
 }
 .section-three .title {
     font-size: 36px;
@@ -160,6 +165,14 @@ address {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-bottom: 72px;
+}
+.section-three .list {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 240px;
+.section-three {
+    margin: 0 auto;
 }
 .section-four {
     background-color: #F4F4FD;

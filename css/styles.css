@@ -279,11 +279,12 @@ address {
     display: flex;
     margin: 0 0 72px 0;
     justify-content: center;
+    gap: 24px;
 }
 .list-button {
     gap: 24px
 }
-.box .list {
+.box .item {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;

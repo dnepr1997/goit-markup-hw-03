@@ -251,7 +251,14 @@ address {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     width: 264px;
+    margin-top: 17px;
+    padding-bottom: 100px;
 }
+.footer  {
+    padding-top: 101px;
+    
+}
+
 .list .button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -280,6 +287,20 @@ address {
     display: flex;
     gap: 24px;
     margin: 96px 0 72px 0;
+    justify-content: center;
+}
+.box .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+ .items {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+.box .item {
+    padding-left: 0;
 }
 /**
   |============================

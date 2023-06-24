@@ -136,13 +136,13 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .list .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color1);
-    padding-top: 8px;
 }
 .section-two .text {
     width: 264px;
@@ -159,7 +159,9 @@ address {
 .section-two .list {
     display: flex;
     gap: 24px;
-    margin: 120px 0;
+}
+.section-two {
+    padding: 120px 0;
 }
 .section-three .title {
     font-size: 36px;
@@ -167,18 +169,19 @@ address {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .section-three .list {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 .section-three {
     margin: 0 auto;
+    padding-bottom: 120px;
 }
 .section-four {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .section-four .title {
     font-size: 36px;
@@ -187,10 +190,11 @@ address {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    padding: 120px 0 72px 0;
+    margin-bottom: 72px;
 }
 .section-four .page {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
 }
 .section-four caption {
     font-weight: 500;
@@ -199,6 +203,7 @@ address {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-bottom: 72px;
+    margin-bottom: 8px;
 }
 .section-four .text {
     font-size: 16px;
@@ -214,24 +219,13 @@ address {
     gap: 24px;
     margin: 0 auto;
 }
-.mark-guerrero {
-    padding: 32px 16px;
-    text-align: center;
-}
-.tom-ford {
-    padding: 32px 16px;
-    text-align: center;
-}
-.camila-garcia {
-    padding: 32px 16px;
-    text-align: center;
-}
-.daniel-wilson {
+.people {
     padding: 32px 16px;
     text-align: center;
 }
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .footer-link {
     font-family: "Raleway", sans-serif;
@@ -243,6 +237,8 @@ address {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer .span-a {
     color: #f4f4fd;
@@ -252,14 +248,8 @@ address {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-top: 17px;
     padding-bottom: 100px;
 }
-.footer  {
-    padding-top: 101px;
-    
-}
-
 .list .button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -277,6 +267,7 @@ address {
 .list .button:focus {
     color: #FFFFFF;
     background-color: #404BBF
+    border: 1px solid transparent;
 }
 .list .title {
     font-weight: 500;
@@ -286,9 +277,11 @@ address {
 }
 .container-button .list {
     display: flex;
-    gap: 24px;
     margin: 0 0 72px 0;
     justify-content: center;
+}
+.list-button {
+    gap: 24px
 }
 .box .list {
     display: flex;
@@ -299,6 +292,9 @@ address {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
+}
+.items .title {
+    margin-bottom: 8px;
 }
 .box .item {
     padding-left: 0;
@@ -311,16 +307,15 @@ address {
   | HIDDEN
   |============================
 */
-
 .visually-hidden {
     position: absolute;
-    white-space: nowrap;
     width: 1px;
     height: 1px;
-    overflow: hidden;
+    margin: -1px;
     border: 0;
     padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+    overflow: hidden;
 }

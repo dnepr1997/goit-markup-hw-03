@@ -159,6 +159,7 @@ address {
 .section-two .list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 .section-two {
     padding: 120px 0;
@@ -174,6 +175,7 @@ address {
 .section-three .list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 48px) / 3);
 }
 .section-three {
     margin: 0 auto;

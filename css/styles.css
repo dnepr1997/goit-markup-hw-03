@@ -184,6 +184,10 @@ address {
     margin: 0 auto;
     padding-bottom: 120px;
 }
+.section-three-li {
+    display: block;
+    width: calc((100% - 48px) / 3);
+}
 .section-four {
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -307,6 +311,10 @@ address {
 }
 .box {
     padding: 96px 0 120px 0;
+}
+.box-li {
+    display: block;
+    width: calc((100% - 48px) / 3);
 }
 /**
   |============================

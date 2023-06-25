@@ -9,6 +9,7 @@ body {
 }
 ul {
     list-style-type: none;
+    padding: 0;
 }
 .header-list {
     display: flex;
@@ -159,7 +160,7 @@ address {
 .section-two .list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
+    width: calc((100px - 72px) / 4);
 }
 .section-two {
     padding: 120px 0;

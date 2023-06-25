@@ -176,7 +176,7 @@ address {
 .section-three .list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 2 * 24px) / 3);
+    width: calc((384px - 48px) / 3);
 }
 .section-three {
     margin: 0 auto;
@@ -283,7 +283,7 @@ address {
     margin: 0 0 72px 0;
     justify-content: center;
     gap: 24px;
-    width: calc((100% - 48px) / 3);
+    width: calc((384px - 48px) / 3);
 }
 .list-button {
     gap: 24px

@@ -160,10 +160,13 @@ address {
 .section-two .list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 3 * 24px) / 4);
 }
 .section-two {
     padding: 120px 0;
+}
+.section-two-li {
+    display: block;
+    width: calc((100% - 72px) / 4);
 }
 .section-three .title {
     font-size: 36px;
@@ -176,7 +179,6 @@ address {
 .section-three .list {
     display: flex;
     gap: 24px;
-    width: calc((384px - 48px) / 3);
 }
 .section-three {
     margin: 0 auto;
@@ -283,7 +285,6 @@ address {
     margin: 0 0 72px 0;
     justify-content: center;
     gap: 24px;
-    width: calc((384px - 48px) / 3);
 }
 .list-button {
     gap: 24px
